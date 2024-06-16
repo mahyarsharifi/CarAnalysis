@@ -1,0 +1,15 @@
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\bin\Debug\net7.0\BlogManagment.Application.Contracts.deps.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\bin\Debug\net7.0\BlogManagment.Application.Contracts.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\bin\Debug\net7.0\BlogManagment.Application.Contracts.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\bin\Debug\net7.0\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\bin\Debug\net7.0\0_Freamwork.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.AssemblyInfo.cs
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.csproj.CopyComplete
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\refint\BlogManagment.Application.Contracts.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\BlogManagment.Application.Contracts.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Application.Contracts\obj\Debug\net7.0\ref\BlogManagment.Application.Contracts.dll

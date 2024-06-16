@@ -1,0 +1,17 @@
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\CommentManagment.Domain.deps.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\CommentManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\CommentManagment.Domain.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\0_Freamwork.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.csproj.AssemblyReference.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.AssemblyInfo.cs
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.csproj.CopyComplete
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\refint\CommentManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\CommentManagment.Domain.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\obj\Debug\net7.0\ref\CommentManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\CommentManagement.Application.Contracts.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagment.Domain\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb

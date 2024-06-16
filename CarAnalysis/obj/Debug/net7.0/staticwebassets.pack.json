@@ -1,0 +1,613 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CarAnalysis.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarAnalysis.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\bootstrap-wysihtml5\\wysiwyg-color.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap-wysihtml5\\wysiwyg-color.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\bootstrap3-editable\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\bootstrap3-editable\\bootstrap-editable.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\chat\\moment-2.2.1.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\chat\\moment-2.2.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\codemirror\\ambiance.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\ambiance.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\colorpicker\\colorpicker.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\colorpicker\\colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\comingsoon\\simpletextrotator.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\comingsoon\\simpletextrotator.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\counterup\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\counterup\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\helper.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\helper.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\style-responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\css\\waves-effect.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\waves-effect.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\datatables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\datatables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\fastclick\\fastclick.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fastclick\\fastclick.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.selection.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.selection.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.time.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\flot-chart\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\flot-chart\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\form-wizard\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\form-wizard\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\fullcalendar\\bootstrap-fullcalendar.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\bootstrap-fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\fullcalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\fullcalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\images\\big\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\big\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\images\\small\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\small\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\images\\users\\Thumbs.db",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ion-rangeslider\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\ionicon\\css\\ionicons.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\css\\ionicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\ionicon\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\ionicon\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jquery-blockui\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-blockui\\jquery.blockUI.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jquery-datatables-editable\\datatables.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-datatables-editable\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jquery-detectmobile\\detect.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-detectmobile\\detect.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jquery-multi-select\\multi-select.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-multi-select\\multi-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\jquery.app.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.app.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\jquery.chat.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.chat.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\jquery.dashboard.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\jquery.scrollTo.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.scrollTo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\jquery.todo.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\jquery.todo.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\modernizr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\waves.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\waves.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\jvectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\modal-effect\\css\\component.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\modal-effect\\css\\component.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\morris\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\notifications\\notification.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\notifications\\notification.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\radial\\radial.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\radial\\radial.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\responsive-table\\rwd-table.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\responsive-table\\rwd-table.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\summernote\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\sweet-alert\\sweet-alert.init.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\sweet-alert.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\sweet-alert\\sweet-alert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\tagsinput\\jquery.tagsinput.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\tagsinput\\jquery.tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\timepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\timepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\timepicker\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\timepicker\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\assets\\toggles\\toggles.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\toggles\\toggles.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\AdminTheme\\fonts\\IranianSans.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\fonts\\Helvetica Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\fonts\\Helvetica.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\icon.ico",
+      "PackagePath": "staticwebassets\\icon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\CarCategory\\irankhodro.png",
+      "PackagePath": "staticwebassets\\images\\CarCategory\\irankhodro.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\CarCategory\\peugeot.jpg",
+      "PackagePath": "staticwebassets\\images\\CarCategory\\peugeot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\CarCategory\\saipa.png",
+      "PackagePath": "staticwebassets\\images\\CarCategory\\saipa.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\about-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car (2).png",
+      "PackagePath": "staticwebassets\\images\\car (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car-1.png",
+      "PackagePath": "staticwebassets\\images\\car-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car-2.png",
+      "PackagePath": "staticwebassets\\images\\car-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car-3.png",
+      "PackagePath": "staticwebassets\\images\\car-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car-4.png",
+      "PackagePath": "staticwebassets\\images\\car-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car-service.jpg",
+      "PackagePath": "staticwebassets\\images\\car-service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\car.png",
+      "PackagePath": "staticwebassets\\images\\car.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\client-1.png",
+      "PackagePath": "staticwebassets\\images\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\client-2.png",
+      "PackagePath": "staticwebassets\\images\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\client-3.png",
+      "PackagePath": "staticwebassets\\images\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\client-4.png",
+      "PackagePath": "staticwebassets\\images\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\client-5.png",
+      "PackagePath": "staticwebassets\\images\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\down-arrow.png",
+      "PackagePath": "staticwebassets\\images\\down-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\facebook-logo.png",
+      "PackagePath": "staticwebassets\\images\\facebook-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\happiness.png",
+      "PackagePath": "staticwebassets\\images\\happiness.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\instagram-logo.png",
+      "PackagePath": "staticwebassets\\images\\instagram-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\left-arrow-black.png",
+      "PackagePath": "staticwebassets\\images\\left-arrow-black.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\left-arrow-white.png",
+      "PackagePath": "staticwebassets\\images\\left-arrow-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\mail.png",
+      "PackagePath": "staticwebassets\\images\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\quote.png",
+      "PackagePath": "staticwebassets\\images\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\right-arrow-black.png",
+      "PackagePath": "staticwebassets\\images\\right-arrow-black.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\right-arrow-white.png",
+      "PackagePath": "staticwebassets\\images\\right-arrow-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\shipped.png",
+      "PackagePath": "staticwebassets\\images\\shipped.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\special-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\special-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\trophy.png",
+      "PackagePath": "staticwebassets\\images\\trophy.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarAnalysis.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CarAnalysis.props",
+      "PackagePath": "build\\CarAnalysis.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CarAnalysis.props",
+      "PackagePath": "buildMultiTargeting\\CarAnalysis.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CarAnalysis.props",
+      "PackagePath": "buildTransitive\\CarAnalysis.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarAnalysis
+build_property.RootNamespace = CarAnalysis
+build_property.ProjectDir = C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CarAnalysis\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CarAnalysis
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xCbG9nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xCbG9nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xCbG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/CarCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJDYXRlZ29yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/CarCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJDYXRlZ29yeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/CarCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJDYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/CarPicture/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJQaWN0dXJlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/CarPicture/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJQaWN0dXJlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/CarPicture/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJQaWN0dXJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Car/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Car/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Car/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xDb21tZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/BlogDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Blogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/CarCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/CarDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Cars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/Components/About/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/Components/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/Components/Header/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/Components/LatestBlogs/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0QmxvZ3NcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/Components/LatestCars/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0Q2Fyc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Areas/Adminstration/Pages/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zdHJhdGlvblxQYWdlc1xTaGFyZWRcX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-74ncxc5pyi
+
+[C:/Users/Mahyar/OneDrive/Desktop/Projects/CarAnalysis/CarAnalysis/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3fj4ft4e5l

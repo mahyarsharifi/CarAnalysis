@@ -1,0 +1,33 @@
+﻿@using CarManagment.Application.Contracts.Car
+@model List<CarViewModel>
+
+<!-- car section -->
+<section class="car_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>آخرین خودروهای بررسی شده</h2>
+            <hr>
+        </div>
+        <div class="layout_padding">
+            <div class="row">
+                @foreach (var car in Model)
+                {
+                    <div class="col-md-4 car_card">
+                        <div class="card">
+                            <img class="card-img-top" src="@car.Picture" alt="@car.PictureAlt" />
+                            <div class="card-body">
+                                <h5 class="card-title">@car.CarName</h5>
+                                <p class="card-text">@car.ProducingCountry</p>
+                                <a asp-page="./CarDetails" asp-route-id="@car.Id" class="see_more-btn">بررسی مشخصات</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="/CarCategory" class="see_more-btn">بررسی تمام خودروها</a>
+        </div>
+    </div>
+</section>
+<!-- end car section -->

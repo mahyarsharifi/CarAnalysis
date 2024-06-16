@@ -1,0 +1,40 @@
+﻿@page
+@model CarAnalysis.Pages.SearchModel
+@{
+    ViewData["Title"] = "نتیجه جستجو";
+}
+
+<section class="car_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                نتیجه جستجو
+            </h2>
+            <hr>
+        </div>
+        <div class="layout_padding">
+            <div class="row">
+                @foreach (var car in Model.Cars)
+                {
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="@car.Picture" class="card-img-top" alt="@car.PictureAlt">
+                            <div class="card-body">
+                                <h5 class="card-title">@car.CarName</h5>
+                                <p class="card-text">@car.BodyClass</p>
+                                <p class="card-text">@car.EngineVolume</p>
+                                <p class="card-text">@car.MaximumOutputPower</p>
+                                <p class="card-text">@car.TypeOfGearbox</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a asp-page="./CarCategory" class="see_more-btn">
+                بررسی تمام خودروها
+            </a>
+        </div>
+    </div>
+</section>

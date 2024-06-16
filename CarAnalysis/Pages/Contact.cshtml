@@ -1,0 +1,102 @@
+﻿@page
+@model CarAnalysis.Pages.ContactModel
+@{
+    ViewData["Title"] = "ارتباط با ما";
+}
+
+<!-- contact section -->
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                ارتباط با ما
+            </h2>
+            <hr>
+        </div>
+        <div class="layout_padding">
+            <div class="row">
+                <div class="col-md-12">
+                    @if (!string.IsNullOrEmpty(Model.Message))
+                    {
+                        <div class="alert @(Model.IsSuccess ? "alert-success" : "alert-danger")">
+                            @Model.Message
+                        </div>
+                    }
+                </div>
+                <div class="col-md-6">
+                    <form method="post">
+                        <div class="contact_form-container">
+                            <div>
+                                <div>
+                                    <input type="text" name="Name" placeholder="نام">
+                                </div>
+                                <div>
+                                    <input type="email" name="Email" placeholder="ایمیل">
+                                </div>
+                                <div class="mt-5">
+                                    <input type="text" name="Message" placeholder="پیغام">
+                                </div>
+                                <div class="mt-5 d-flex justify-content-center justify-content-sm-start">
+                                    <button type="submit">
+                                        ارسال
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact_img-box">
+                        <img src="~/images/car-service.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact section -->
+<!-- info section -->
+<section class="info_section ">
+    <div class="d-flex justify-content-center">
+        <div class="social_container">
+
+            <div class="number-box">
+                <a href="">
+                    <img src="~/images/phone.png" alt="">
+                    <h6>
+                        +98 9107633956
+                    </h6>
+                </a>
+            </div>
+            <div class="mail-box">
+                <a href="https://mahyar.sharifi82@gmail.com">
+                    <img src="~/images/mail.png" alt="Mail">
+                    <h6>
+                        mahyarsharifii82@gmail.com
+                    </h6>
+                </a>
+            </div>
+            <div class="social-box">
+                <div class="box">
+                    <a href="">
+                        <img src="~/images/twitter.png" alt="Twitter">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://linkedin.com/in/mahyarsharifiii">
+                        <img src="~/images/linkedin.png" alt="Linkedin">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://www.instagram.com/mahyarsharifii">
+                        <img src="~/images/instagram-logo.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- end info section -->

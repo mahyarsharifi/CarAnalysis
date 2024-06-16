@@ -1,0 +1,56 @@
+﻿@using BlogManagment.Application.Contracts.Blog;
+@model List<BlogViewModel>
+
+<!-- feature section -->
+<section class="feature_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                آخرین مقالات
+            </h2>
+            <hr>
+        </div>
+        <div class="carousel-wrap layout_padding2 ">
+            <div class="owl-carousel owl-one">
+                @foreach (var blog in Model)
+                {
+                    <a asp-page="./BlogDetails" asp-route-id="@blog.Id">
+                        <div class="item">
+                            <div class="content">
+                                <div class="top-content">
+                                    <div class="img-box">
+                                        <img src="@blog.Picture" />
+                                    </div>
+                                    <div class="img-text">
+                                        <h6 class="price">
+                                            $80000.00
+                                        </h6>
+                                        <h6>
+                                            $70000.00
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="bottom-content">
+                                    <h5>
+                                        @blog.Title
+                                    </h5>
+                                    <p>
+                                        @blog.Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
+        <div class="car_section">
+            <div class="d-flex justify-content-center">
+                <a asp-page="./Blogs" class="see_more-btn">
+                    مطالعه تمام مقالات
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- feature section -->

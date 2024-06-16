@@ -1,0 +1,14 @@
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\bin\Debug\net7.0\0_Freamwork.deps.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\bin\Debug\net7.0\0_Freamwork.runtimeconfig.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\bin\Debug\net7.0\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\bin\Debug\net7.0\0_Freamwork.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.csproj.AssemblyReference.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.AssemblyInfoInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.AssemblyInfo.cs
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.csproj.CoreCompileInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\refint\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\0_Freamwork.genruntimeconfig.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\0_Freamwork\obj\Debug\net7.0\ref\0_Freamwork.dll

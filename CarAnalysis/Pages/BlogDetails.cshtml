@@ -1,0 +1,63 @@
+﻿@page
+@model CarAnalysis.Pages.BlogDetailsModel
+@{
+    ViewData["Title"] = $"مقالات | {Model.Blog.Title}";
+}
+
+<section class="layout_padding blog_section">
+    <div class="container">
+        <div class="heading_container">
+            <h2>@Model.Blog.Title</h2>
+            <hr>
+        </div>
+        <div class="blog_details">
+            <img src="@Model.Blog.Picture" alt="@Model.Blog.PictureAlt" class="blog_image">
+            <div class="blog_meta">
+                <span class="author"><i class="fas fa-user"></i> @Model.Blog.Writer</span>
+                <span class="date"><i class="fas fa-calendar-alt"></i> @Model.Blog.PublishDate</span>
+            </div>
+            <div class="blog_content">
+                <p>@Model.Blog.Description</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="comments_section">
+    <div class="container">
+        <div class="heading_container">
+            <h3>کامنت ها</h3>
+            <hr>
+        </div>
+        <div class="comments_list">
+            @foreach (var comment in Model.Comments)
+            {
+                <div class="comment">
+                    <h4>@comment.Name</h4>
+                    <p>@comment.Message</p>
+                    <p class="comment_email">@comment.Email</p>
+                    <hr>
+                </div>
+            }
+        </div>
+        <div class="comment_form">
+            <h3>Leave a Comment</h3>
+            <form method="post">
+                <div class="form_group">
+                    <label for="Name">نام :</label>
+                    <input type="text" id="Name" name="Name" required>
+                </div>
+                <div class="form_group">
+                    <label for="Message">پیام :</label>
+                    <textarea id="Message" name="Message" required></textarea>
+                </div>
+                <div class="form_group">
+                    <label for="Email">ایمیل :</label>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+                <input type="hidden" name="ParentId" id="ParentId" value="@Model.Blog.Id" />
+                <button type="submit" class="btn btn-primary">ارسال</button>
+            </form>
+        </div>
+    </div>
+</section>

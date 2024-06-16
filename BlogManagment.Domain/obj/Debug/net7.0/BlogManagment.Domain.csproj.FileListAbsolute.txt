@@ -1,0 +1,17 @@
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\BlogManagment.Domain.deps.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\BlogManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\BlogManagment.Domain.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\BlogManagment.Application.Contracts.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\BlogManagment.Application.Contracts.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\bin\Debug\net7.0\0_Freamwork.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.csproj.AssemblyReference.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.AssemblyInfo.cs
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.csproj.CopyComplete
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\refint\BlogManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\BlogManagment.Domain.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\BlogManagment.Domain\obj\Debug\net7.0\ref\BlogManagment.Domain.dll

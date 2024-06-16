@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\0_Freamwork\0_Freamwork.csproj" />
+    <ProjectReference Include="..\BlogManagment.Application.Contracts\BlogManagment.Application.Contracts.csproj" />
+    <ProjectReference Include="..\CarManagment.Application.Contracts\CarManagment.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

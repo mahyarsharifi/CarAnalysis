@@ -1,0 +1,45 @@
+﻿@page
+@model CarAnalysis.Pages.CarDetailsModel
+@{
+    ViewData["Title"] = $"خودروها | {? Model.Car.CarName}";
+}
+
+
+<section class="comments_section">
+    <div class="container">
+        <div class="heading_container">
+            <h3>کامنت ها</h3>
+            <hr>
+        </div>
+        <div class="comments_list">
+            @foreach (var comment in Model.Comments)
+            {
+                <div class="comment">
+                    <h4>@comment.Name</h4>
+                    <p>@comment.Message</p>
+                    <p>@comment.Email</p>
+                    <hr>
+                </div>
+            }
+        </div>
+        <div class="comment_form">
+            <h3>پیام بگذارید</h3>
+            <form method="post">
+                <div class="form_group">
+                    <label for="Name">نام :</label>
+                    <input type="text" id="Name" name="Name" required>
+                </div>
+                <div class="form_group">
+                    <label for="Message">پیام :</label>
+                    <textarea id="Message" name="Message" required></textarea>
+                </div>
+                <div class="form_group">
+                    <label for="Email">پیام :</label>
+                    <textarea id="Email" name="Email" required></textarea>
+                </div>
+                <input type="hidden" name="ParentId" id="ParentId" value="@Model.Car.Id" />
+                <button type="submit">ارسال</button>
+            </form>
+        </div>
+    </div>
+</section>

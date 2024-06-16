@@ -1,0 +1,12 @@
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\bin\Debug\net7.0\UserManagment.Infrastracture.Configuration.deps.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\bin\Debug\net7.0\UserManagment.Infrastracture.Configuration.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\bin\Debug\net7.0\UserManagment.Infrastracture.Configuration.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.csproj.AssemblyReference.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.AssemblyInfoInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.AssemblyInfo.cs
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\refint\UserManagment.Infrastracture.Configuration.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\UserManagment.Infrastracture.Configuration.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Infrastracture.Configuration\obj\Debug\net7.0\ref\UserManagment.Infrastracture.Configuration.dll

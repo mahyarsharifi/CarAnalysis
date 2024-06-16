@@ -1,0 +1,12 @@
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\bin\Debug\net7.0\UserManagment.Domain.deps.json
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\bin\Debug\net7.0\UserManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\bin\Debug\net7.0\UserManagment.Domain.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.csproj.AssemblyReference.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.AssemblyInfo.cs
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\refint\UserManagment.Domain.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\UserManagment.Domain.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\UserManagment.Domain\obj\Debug\net7.0\ref\UserManagment.Domain.dll

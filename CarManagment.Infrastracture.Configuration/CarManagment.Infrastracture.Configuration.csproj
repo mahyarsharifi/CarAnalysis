@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01_CarAnalysisQuery\01_CarAnalysisQuery.csproj" />
+    <ProjectReference Include="..\BlogManagment.Application\BlogManagment.Application.csproj" />
+    <ProjectReference Include="..\CarManagment.Application\CarManagment.Application.csproj" />
+    <ProjectReference Include="..\CarManagment.Domain\CarManagment.Domain.csproj" />
+    <ProjectReference Include="..\CarManagment.Infrastracture.EFCore\CarManagment.Infrastracture.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

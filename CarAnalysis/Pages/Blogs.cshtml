@@ -1,0 +1,47 @@
+﻿@page
+@model CarAnalysis.Pages.BlogsModel
+@{
+    ViewData["Title"] = "مقالات";
+}
+
+<section class="feature_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                مقالات
+            </h2>
+            <hr>
+        </div>
+        <div class="carousel-wrap layout_padding2 ">
+            <div class="owl-carousel owl-one">
+                @foreach (var blog in Model.Blog)
+                {
+                    <a asp-page="./BlogDetails" asp-route-id="@blog.Id">
+                        <div class="item">
+                            <div class="content">
+                                <div class="top-content">
+                                    <div class="img-box">
+                                        <img src="@blog.Picture" />
+                                    </div>
+                                    <div class="img-text">
+                                        <h6>
+                                            ... مطالعه مقاله
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="bottom-content">
+                                    <h5>
+                                        @blog.Title
+                                    </h5>
+                                    <p>
+                                        @blog.Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</section>

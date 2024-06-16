@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_01_CarAnalysisQuery</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogManagment.Infrastracture.EFCore\BlogManagment.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\CarManagment.Infrastracture.EFCore\CarManagment.Infrastracture.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

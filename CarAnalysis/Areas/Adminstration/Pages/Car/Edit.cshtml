@@ -1,0 +1,510 @@
+﻿@model CarManagment.Application.Contracts.Car.EditCar
+@{
+    Layout = "Shared/_AdminLayout";
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">ویرایش خودرو: @Model.CarName</h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Edit"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CarName" class="control-label">نام خودرو</label>
+                    <input type="text" class="form-control" asp-for="CarName" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="CarName" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="ProducingCountry" class="control-label">کشور تولید کننده</label>
+                    <input type="text" class="form-control" asp-for="ProducingCountry">
+                    <span asp-validation-for="ProducingCountry" class="error"></span>
+                </div>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="CategoryId" class="control-label">گروه محصول</label>
+                    <select class="form-control" asp-for="CategoryId" asp-items='new SelectList(Model.Categories,"Id","Name")'>
+                        <option value="0">گروه محصول</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="BodyClass" class="control-label">کلاس بدنه</label>
+                    <input type="text" class="form-control" asp-for="BodyClass" />
+                    <span asp-validation-for="BodyClass" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Weight" class="control-label">وزن</label>
+                    <input class="form-control" asp-for="Weight">
+                    <span asp-validation-for="Weight" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="PassengerSpaces" class="control-label">فضای ماشین</label>
+                    <input type="text" class="form-control" asp-for="PassengerSpaces">
+                    <span asp-validation-for="PassengerSpaces" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="TheDimensionsAndTypeOfTiresOfTheFrontWheels" class="control-label">ابعاد و نوع لاستیک های چرخ های جلویی</label>
+                    <input type="text" class="form-control" asp-for="TheDimensionsAndTypeOfTiresOfTheFrontWheels">
+                    <span asp-validation-for="TheDimensionsAndTypeOfTiresOfTheFrontWheels" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group no-margin">
+                    <label asp-for="TheDimensionsAndTypeOfTiresOfTheRearWheels" class="control-label">ابعاد و نوع لاستیک های چرخ های عقب</label>
+                    <textarea class="form-control autogrow" asp-for="TheDimensionsAndTypeOfTiresOfTheRearWheels" onchange="fillField('Description', 'MetaDescription')"
+                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                    <span asp-validation-for="TheDimensionsAndTypeOfTiresOfTheRearWheels" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="EngineVolume" class="control-label">حجم موتور</label>
+                    <input type="text" class="form-control" asp-for="EngineVolume">
+                    <span asp-validation-for="EngineVolume" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="EngineType" class="control-label">نوع موتور</label>
+                    <input type="text" class="form-control" asp-for="EngineType">
+                    <span asp-validation-for="EngineType" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group no-margin">
+                    <label asp-for="Cylinders" class="control-label">تعداد سیلندر</label>
+                    <textarea class="form-control autogrow" asp-for="Cylinders"
+                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                    <span asp-validation-for="Cylinders" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Valves" class="control-label">تعداد سوپاپ</label>
+                    <input type="text" class="form-control" asp-for="Valves">
+                    <span asp-validation-for="Valves" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="ArrangementOfCylinders" class="control-label">چیدمان سیلندرها</label>
+                    <input type="text" class="form-control" asp-for="ArrangementOfCylinders">
+                    <span asp-validation-for="ArrangementOfCylinders" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="FuelSystem" class="control-label">نوع سیستم سوخت</label>
+                    <input type="text" class="form-control" asp-for="FuelSystem">
+                    <span asp-validation-for="FuelSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="MaximumOutputPower" class="control-label">حداکثر توان خروجی</label>
+                    <input type="text" class="form-control" asp-for="MaximumOutputPower">
+                    <span asp-validation-for="MaximumOutputPower" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="MaximumOutputTorque" class="control-label">حداکثر گشتاور خروجی</label>
+                    <input type="text" class="form-control" asp-for="MaximumOutputTorque">
+                    <span asp-validation-for="MaximumOutputTorque" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="TankCapacity" class="control-label">ظرفیت باک</label>
+                    <input type="text" class="form-control" asp-for="TankCapacity">
+                    <span asp-validation-for="TankCapacity" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="TypeOfGearbox" class="control-label">نوع گیربکس</label>
+                    <input type="text" class="form-control" asp-for="TypeOfGearbox">
+                    <span asp-validation-for="TypeOfGearbox" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="NumberOfGears" class="control-label">تعداد دنده ها</label>
+                    <input type="text" class="form-control" asp-for="NumberOfGears">
+                    <span asp-validation-for="NumberOfGears" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="VehicleMotionSystem" class="control-label">سیستم حرکت خودرو</label>
+                    <input type="text" class="form-control" asp-for="VehicleMotionSystem">
+                    <span asp-validation-for="VehicleMotionSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="FrontDiskType" class="control-label">نوع ترمز های جلو</label>
+                    <input type="text" class="form-control" asp-for="FrontDiskType">
+                    <span asp-validation-for="FrontDiskType" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="RearDiskType" class="control-label">نوع ترمز های عقب</label>
+                    <input type="text" class="form-control" asp-for="RearDiskType">
+                    <span asp-validation-for="RearDiskType" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="FrontShockAbsorbers" class="control-label">کمک فنر جلو</label>
+                    <input type="text" class="form-control" asp-for="FrontShockAbsorbers">
+                    <span asp-validation-for="FrontShockAbsorbers" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="RearShockAbsorbers" class="control-label">کمک فنر عقب</label>
+                    <input type="text" class="form-control" asp-for="RearShockAbsorbers">
+                    <span asp-validation-for="RearShockAbsorbers" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="TypeOfSteeringSystem" class="control-label">نوع سیستم فرمان</label>
+                    <input type="text" class="form-control" asp-for="TypeOfSteeringSystem">
+                    <span asp-validation-for="TypeOfSteeringSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="MaximumSpeed" class="control-label">حداکثر سرعت</label>
+                    <input type="text" class="form-control" asp-for="MaximumSpeed">
+                    <span asp-validation-for="MaximumSpeed" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    فنر عقب</label>
+                    <label asp-for="AccelerationFrom0To100" class="control-label">شتاب 0 تا 100</label>
+                    <input type="text" class="form-control" asp-for="AccelerationFrom0To100">
+                    <span asp-validation-for="AccelerationFrom0To100" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="UrbanFuelConsumption" class="control-label">مصرف سوخت شهری</label>
+                    <input type="text" class="form-control" asp-for="UrbanFuelConsumption">
+                    <span asp-validation-for="UrbanFuelConsumption" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="RoadFuelConsumption" class="control-label">مصرف سوخت جاده ای</label>
+                    <input type="text" class="form-control" asp-for="RoadFuelConsumption">
+                    <span asp-validation-for="RoadFuelConsumption" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="CombinedFuelConsumption" class="control-label">مصرف سوخت ترکیبی</label>
+                    <input type="text" class="form-control" asp-for="CombinedFuelConsumption">
+                    <span asp-validation-for="CombinedFuelConsumption" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="EmissionStandard" class="control-label">پاشش سوخت</label>
+                    <input type="text" class="form-control" asp-for="EmissionStandard">
+                    <span asp-validation-for="EmissionStandard" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="SafetyStar" class="control-label">ستاره ایمنی</label>
+                    <input type="text" class="form-control" asp-for="SafetyStar">
+                    <span asp-validation-for="SafetyStar" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Airbags" class="control-label">ایربگ ها</label>
+                    <input type="text" class="form-control" asp-for="Airbags">
+                    <span asp-validation-for="Airbags" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="StabilityAndDriverAssistanceSystems" class="control-label">سیستم های پایداری و کمک راننده</label>
+                    <input type="text" class="form-control" asp-for="StabilityAndDriverAssistanceSystems">
+                    <span asp-validation-for="StabilityAndDriverAssistanceSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="SecurityAndProtectionSystems" class="control-label">سیستم های امنیتی و حفاظتی</label>
+                    <input type="text" class="form-control" asp-for="SecurityAndProtectionSystems">
+                    <span asp-validation-for="SecurityAndProtectionSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="AirConditioningSystems" class="control-label">سیستم های تهویه مطبوع</label>
+                    <input type="text" class="form-control" asp-for="AirConditioningSystems">
+                    <span asp-validation-for="AirConditioningSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="AudioAndVideoSystem" class="control-label">سیستم صوتی و تصویری</label>
+                    <input type="text" class="form-control" asp-for="AudioAndVideoSystem">
+                    <span asp-validation-for="AudioAndVideoSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="MultimediaSystems" class="control-label">سیستم های چند رسانه ای</label>
+                    <input type="text" class="form-control" asp-for="MultimediaSystems">
+                    <span asp-validation-for="MultimediaSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="FrontSeatSystem" class="control-label">سیستم صندلی جلو</label>
+                    <input type="text" class="form-control" asp-for="FrontSeatSystem">
+                    <span asp-validation-for="FrontSeatSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="RearSeatSystem" class="control-label">سیستم صندلی عقب</label>
+                    <input type="text" class="form-control" asp-for="RearSeatSystem">
+                    <span asp-validation-for="RearSeatSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="StabilityAndDriverAssistanceSystems" class="control-label">سیستم های پایداری و کمک راننده</label>
+                    <input type="text" class="form-control" asp-for="StabilityAndDriverAssistanceSystems">
+                    <span asp-validation-for="StabilityAndDriverAssistanceSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="MirrorSystem" class="control-label"> آینه ها</label>
+                    <input type="text" class="form-control" asp-for="MirrorSystem">
+                    <span asp-validation-for="MirrorSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="GlasssSystem" class="control-label">شیشه ها</label>
+                    <input type="text" class="form-control" asp-for="GlasssSystem">
+                    <span asp-validation-for="GlasssSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="RoofSystems" class="control-label">سقف</label>
+                    <input type="text" class="form-control" asp-for="RoofSystems">
+                    <span asp-validation-for="RoofSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="FrontLightingSystem" class="control-label">سیستم روشنایی جلو</label>
+                    <input type="text" class="form-control" asp-for="FrontLightingSystem">
+                    <span asp-validation-for="FrontLightingSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="RearLightingSystem" class="control-label">سیستم روشنایی عقب</label>
+                    <input type="text" class="form-control" asp-for="RearLightingSystem">
+                    <span asp-validation-for="RearLightingSystem" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="DrivingAssistanceSystems" class="control-label">سیستم های کمک رانندگی</label>
+                    <input type="text" class="form-control" asp-for="DrivingAssistanceSystems">
+                    <span asp-validation-for="DrivingAssistanceSystems" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">توضیحات</label>
+                    <input type="text" class="form-control" asp-for="Description">
+                    <span asp-validation-for="Description" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Picture" class="control-label">عکس</label>
+                    <input type="text" class="form-control" asp-for="Picture">
+                    <span asp-validation-for="Picture" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="PictureAlt" class="control-label">Alt عکس</label>
+                    <input type="text" class="form-control" asp-for="PictureAlt">
+                    <span asp-validation-for="PictureAlt" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="PictureTitle" class="control-label">Title عکس</label>
+                    <input type="text" class="form-control" asp-for="PictureTitle">
+                    <span asp-validation-for="PictureTitle" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Slug" class="control-label">اسلاگ</label>
+                    <input type="text" class="form-control" asp-for="Slug">
+                    <span asp-validation-for="Slug" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Keywords" class="control-label">کلید واژه ها</label>
+                    <input type="text" class="form-control" asp-for="Keywords">
+                    <span asp-validation-for="Keywords" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="MetaDescription" class="control-label">کلید واژه ها</label>
+                    <input type="text" class="form-control" asp-for="MetaDescription">
+                    <span asp-validation-for="MetaDescription" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" asp-for="Id" value="@Model.Id" />
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ویرایش</button>
+    </div>
+</form>
