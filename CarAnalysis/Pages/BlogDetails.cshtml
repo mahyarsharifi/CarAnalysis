@@ -26,38 +26,38 @@
 <section class="comments_section">
     <div class="container">
         <div class="heading_container">
-            <h3>کامنت ها</h3>
+            <h2>کامنت ها</h2>
             <hr>
         </div>
-        <div class="comments_list">
-            @foreach (var comment in Model.Comments)
-            {
-                <div class="comment">
-                    <h4>@comment.Name</h4>
-                    <p>@comment.Message</p>
-                    <p class="comment_email">@comment.Email</p>
-                    <hr>
-                </div>
-            }
-        </div>
         <div class="comment_form">
-            <h3>Leave a Comment</h3>
+            <h3>کامنت بگذارید</h3>
             <form method="post">
                 <div class="form_group">
                     <label for="Name">نام :</label>
                     <input type="text" id="Name" name="Name" required>
                 </div>
                 <div class="form_group">
-                    <label for="Message">پیام :</label>
-                    <textarea id="Message" name="Message" required></textarea>
+                    <label for="Message">ایمیل :</label>
+                    <input type="email" id="Message" name="Message" required>
                 </div>
                 <div class="form_group">
-                    <label for="Email">ایمیل :</label>
-                    <input type="email" id="Email" name="Email" required>
+                    <label for="Email">پیام :</label>
+                    <textarea type="email" id="Email" name="Email" required></textarea>
                 </div>
                 <input type="hidden" name="ParentId" id="ParentId" value="@Model.Blog.Id" />
                 <button type="submit" class="btn btn-primary">ارسال</button>
             </form>
+        </div>
+        <div class="comments_list">
+            @foreach (var comment in Model.Comments)
+            {
+                <div class="comment">
+                    <h4>کاربر : @comment.Name</h4>
+                    <p class="comment_email">ایمیل : @comment.Email</p>
+                    <p>پیام : @comment.Message</p>
+                    <hr>
+                </div>
+            }
         </div>
     </div>
 </section>

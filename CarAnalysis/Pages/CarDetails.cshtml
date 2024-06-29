@@ -1,45 +1,108 @@
 ﻿@page
 @model CarAnalysis.Pages.CarDetailsModel
 @{
-    ViewData["Title"] = $"خودروها | {? Model.Car.CarName}";
+    ViewData["Title"] = $"خودروها | {Model.Car.CarName}";
 }
 
-
-<section class="comments_section">
+<section class="car-details">
     <div class="container">
-        <div class="heading_container">
-            <h3>کامنت ها</h3>
-            <hr>
+        <header>
+            <h1>@Model.Car.CarName</h1>
+        </header>
+
+        <div class="car-description">
+            <p>@Model.Car.Description</p>
         </div>
-        <div class="comments_list">
-            @foreach (var comment in Model.Comments)
+
+        <div class="car-gallery">
+            @*            @foreach (var picture in Model.Car.CarPictures)
             {
-                <div class="comment">
-                    <h4>@comment.Name</h4>
-                    <p>@comment.Message</p>
-                    <p>@comment.Email</p>
-                    <hr>
-                </div>
-            }
+            <img src="@picture.Picture" alt="@picture.PictureAlt" title="@picture.PictureTitle" />
+            }*@
         </div>
-        <div class="comment_form">
-            <h3>پیام بگذارید</h3>
-            <form method="post">
-                <div class="form_group">
-                    <label for="Name">نام :</label>
-                    <input type="text" id="Name" name="Name" required>
-                </div>
-                <div class="form_group">
-                    <label for="Message">پیام :</label>
-                    <textarea id="Message" name="Message" required></textarea>
-                </div>
-                <div class="form_group">
-                    <label for="Email">پیام :</label>
-                    <textarea id="Email" name="Email" required></textarea>
-                </div>
-                <input type="hidden" name="ParentId" id="ParentId" value="@Model.Car.Id" />
-                <button type="submit">ارسال</button>
-            </form>
+
+        <div class="car-specifications">
+            <h2>مشخصات خودرو</h2>
+            <table>
+                <tr><th>کشور سازنده</th><td>@Model.Car.ProducingCountry</td></tr>
+                <tr><th>نوع بدنه</th><td>@Model.Car.BodyClass</td></tr>
+                <tr><th>وزن</th><td>@Model.Car.Weight</td></tr>
+                <tr><th>ظرفیت مسافر</th><td>@Model.Car.PassengerSpaces</td></tr>
+                <tr><th>حجم موتور</th><td>@Model.Car.EngineVolume</td></tr>
+                <tr><th>نوع موتور</th><td>@Model.Car.EngineType</td></tr>
+                <tr><th>سیلندرها</th><td>@Model.Car.Cylinders</td></tr>
+                <tr><th>سوپاپ‌ها</th><td>@Model.Car.Valves</td></tr>
+                <tr><th>آرایش سیلندرها</th><td>@Model.Car.ArrangementOfCylinders</td></tr>
+                <tr><th>سیستم سوخت</th><td>@Model.Car.FuelSystem</td></tr>
+                <tr><th>حداکثر قدرت خروجی</th><td>@Model.Car.MaximumOutputPower</td></tr>
+                <tr><th>حداکثر گشتاور خروجی</th><td>@Model.Car.MaximumOutputTorque</td></tr>
+                <tr><th>ظرفیت مخزن سوخت</th><td>@Model.Car.TankCapacity</td></tr>
+                <tr><th>نوع گیربکس</th><td>@Model.Car.TypeOfGearbox</td></tr>
+                <tr><th>تعداد دنده‌ها</th><td>@Model.Car.NumberOfGears</td></tr>
+                <tr><th>سیستم حرکت خودرو</th><td>@Model.Car.VehicleMotionSystem</td></tr>
+                <tr><th>نوع دیسک جلو</th><td>@Model.Car.FrontDiskType</td></tr>
+                <tr><th>نوع دیسک عقب</th><td>@Model.Car.RearDiskType</td></tr>
+                <tr><th>جذب‌کننده ضربات جلو</th><td>@Model.Car.FrontShockAbsorbers</td></tr>
+                <tr><th>جذب‌کننده ضربات عقب</th><td>@Model.Car.RearShockAbsorbers</td></tr>
+                <tr><th>نوع سیستم فرمان</th><td>@Model.Car.TypeOfSteeringSystem</td></tr>
+                <tr><th>حداکثر سرعت</th><td>@Model.Car.MaximumSpeed</td></tr>
+                <tr><th>شتاب 0 تا 100</th><td>@Model.Car.AccelerationFrom0To100</td></tr>
+                <tr><th>مصرف سوخت شهری</th><td>@Model.Car.UrbanFuelConsumption</td></tr>
+                <tr><th>مصرف سوخت جاده‌ای</th><td>@Model.Car.RoadFuelConsumption</td></tr>
+                <tr><th>مصرف سوخت ترکیبی</th><td>@Model.Car.CombinedFuelConsumption</td></tr>
+                <tr><th>استاندارد آلایندگی</th><td>@Model.Car.EmissionStandard</td></tr>
+                <tr><th>ستاره ایمنی</th><td>@Model.Car.SafetyStar</td></tr>
+                <tr><th>کیسه‌های هوا</th><td>@Model.Car.Airbags</td></tr>
+                <tr><th>سیستم‌های پایداری و کمک‌راننده</th><td>@Model.Car.StabilityAndDriverAssistanceSystems</td></tr>
+                <tr><th>سیستم‌های امنیتی و حفاظتی</th><td>@Model.Car.SecurityAndProtectionSystems</td></tr>
+                <tr><th>سیستم‌های تهویه هوا</th><td>@Model.Car.AirConditioningSystems</td></tr>
+                <tr><th>سیستم‌های صوتی و تصویری</th><td>@Model.Car.AudioAndVideoSystem</td></tr>
+                <tr><th>سیستم‌های چندرسانه‌ای</th><td>@Model.Car.MultimediaSystems</td></tr>
+                <tr><th>سیستم صندلی جلو</th><td>@Model.Car.FrontSeatSystem</td></tr>
+                <tr><th>سیستم صندلی عقب</th><td>@Model.Car.RearSeatSystem</td></tr>
+                <tr><th>سیستم آینه</th><td>@Model.Car.MirrorSystem</td></tr>
+                <tr><th>سیستم شیشه‌ها</th><td>@Model.Car.GlasssSystem</td></tr>
+                <tr><th>سیستم سقف</th><td>@Model.Car.RoofSystems</td></tr>
+                <tr><th>سیستم روشنایی جلو</th><td>@Model.Car.FrontLightingSystem</td></tr>
+                <tr><th>سیستم روشنایی عقب</th><td>@Model.Car.RearLightingSystem</td></tr>
+                <tr><th>سیستم‌های کمک‌رانندگی</th><td>@Model.Car.DrivingAssistanceSystems</td></tr>
+            </table>
         </div>
+    </div>
+</section>
+<section class="comments_section">
+    <div class="heading_container">
+        <h2>کامنت ها</h2>
+        <hr>
+    </div>
+    <div class="comment_form">
+        <h3>پیام بگذارید</h3>
+        <form method="post">
+            <div class="form_group">
+                <label for="Name">نام :</label>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+            <div class="form_group">
+                <label for="Email">ایمیل :</label>
+                <input type="email" id="Email" name="Email" required>
+            </div>
+            <div class="form_group">
+                <label for="Message">پیام :</label>
+                <textarea id="Message" name="Message" required></textarea>
+            </div>
+            <input type="hidden" name="ParentId" id="ParentId" value="@Model.Car.Id" />
+            <button type="submit">ارسال</button>
+        </form>
+    </div>
+    <div class="comments_list">
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="comment">
+                <h4>کاربر : @comment.Name</h4>
+                <p class="comment_email">ایمیل : @comment.Email</p>
+                <p>پیام : @comment.Message</p>
+                <hr>
+            </div>
+        }
     </div>
 </section>

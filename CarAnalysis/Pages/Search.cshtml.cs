@@ -1,4 +1,5 @@
-using CarManagment.Application.Contracts.Car;
+﻿using CarManagment.Application.Contracts.Car;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CarAnalysis.Pages
@@ -12,9 +13,22 @@ namespace CarAnalysis.Pages
         {
             _carApplication = carApplication;
         }
-        public void OnGet(CarSearchModel searchModel)
+        public IActionResult OnGet(CarSearchModel searchModel)
         {
-            Cars = _carApplication.Search(searchModel);
+            if (IsSearchModelEmpty(searchModel))
+            {
+                Cars = new List<CarViewModel>();
+            }
+            else
+            {
+                Cars = _carApplication.Search(searchModel);
+            }
+            return Page();
+        }
+
+        private bool IsSearchModelEmpty(CarSearchModel searchModel)
+        {
+            return string.IsNullOrEmpty(searchModel.CarName);
         }
     }
 }

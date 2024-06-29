@@ -16,7 +16,6 @@ namespace CarAnalysis.Pages
         private readonly ICarQuery _carQuery;
         private readonly ICommentApplication _commentApplication;
 
-
         public CarDetailsModel(ICarQuery carQuery, ICommentApplication commentApplication)
         {
             _carQuery = carQuery;

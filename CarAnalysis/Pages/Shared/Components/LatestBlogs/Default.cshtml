@@ -2,7 +2,7 @@
 @model List<BlogViewModel>
 
 <!-- feature section -->
-<section class="feature_section layout_padding">
+@*<section class="feature_section layout_padding">
     <div class="container">
         <div class="heading_container">
             <h2>
@@ -52,5 +52,38 @@
             </div>
         </div>
     </div>
-</section>
+</section>*@
 <!-- feature section -->
+<section class="car_groups_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>آخرین مقالات</h2>
+            <hr>
+        </div>
+        <div class="layout_padding">
+            <div class="row">
+                @foreach (var blog in Model)
+                {
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 car_card">
+                            <div class="card_image">
+                                <img src="@blog.Picture" class="card-img-top" alt="">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">@blog.Title</h5>
+                                <p class="card-text">@blog.ShortDescription</p>
+                                <div class="mt-auto text-center">
+                                    <a asp-page="./BlogDetails" asp-route-id="@blog.Id" class="btn btn-secondary w-100">مطالعه مقاله</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="mt-auto text-center">
+                <a href="/Blogs" class="btn btn-secondary w-25">مطالعه تمام مقالات</a>
+            </div>
+        </div>
+    </div>
+</section>
+<hr />

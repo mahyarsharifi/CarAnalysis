@@ -16,8 +16,8 @@ namespace CarAnalysis.ViewComponents
         public IViewComponentResult Invoke()
         {
             Blog = _blogRepository.GetBlogs();
-            Blog.Take(5);
-            return View(Blog);
+            var latestBlogs = Blog.OrderByDescending(b => b.Id).Take(3).ToList();
+            return View(latestBlogs);
         }
     }
 }

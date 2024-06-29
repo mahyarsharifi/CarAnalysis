@@ -27,7 +27,9 @@ namespace BlogManagment.Infrastracture.EFCore.Repository
                 Id = x.Id,
                 Title = x.Title,
                 Picture = x.Picture,
-                Description = x.Description
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle,
+                ShortDescription = x.ShortDescription
             }).ToList();
         }
 

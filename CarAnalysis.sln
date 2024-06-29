@@ -53,15 +53,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CM.Domain", "CM.Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CM.Infrastructure", "CM.Infrastructure", "{26A7BC74-47F1-4118-917C-34819F8DBC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentManagment.Domain", "CommentManagment.Domain\CommentManagment.Domain.csproj", "{A99CE75C-4B6C-48FA-B32A-D46FA1ACAEB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagment.Domain", "CommentManagment.Domain\CommentManagment.Domain.csproj", "{A99CE75C-4B6C-48FA-B32A-D46FA1ACAEB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentManagement.Application", "CommentManagement.Application\CommentManagement.Application.csproj", "{99799D3F-A295-4264-B633-91F54C82F0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagement.Application", "CommentManagement.Application\CommentManagement.Application.csproj", "{99799D3F-A295-4264-B633-91F54C82F0EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentManagement.Application.Contracts", "CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj", "{E1A07D6D-3492-4833-BE53-38F180BC18F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagement.Application.Contracts", "CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj", "{E1A07D6D-3492-4833-BE53-38F180BC18F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentManagement.Infrastructure.Configuration", "CommentManagement.Infrastructure.Configuration\CommentManagement.Infrastructure.Configuration.csproj", "{55CC0736-73CE-4BDD-8DCD-B9F7DB01E7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagement.Infrastructure.Configuration", "CommentManagement.Infrastructure.Configuration\CommentManagement.Infrastructure.Configuration.csproj", "{55CC0736-73CE-4BDD-8DCD-B9F7DB01E7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentManagement.Infrastructure.EFCore", "CommentManagement.Infrastructure.EFCore\CommentManagement.Infrastructure.EFCore.csproj", "{81BC8721-832E-4C45-963C-597FF1DC146A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentManagement.Infrastructure.EFCore", "CommentManagement.Infrastructure.EFCore\CommentManagement.Infrastructure.EFCore.csproj", "{81BC8721-832E-4C45-963C-597FF1DC146A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

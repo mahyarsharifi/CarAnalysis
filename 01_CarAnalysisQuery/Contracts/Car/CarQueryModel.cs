@@ -62,6 +62,10 @@ namespace _01_CarAnalysisQuery.Contracts.Car
         public string CarCategory { get; set; }
         public List<CarPictureQueryModel> CarPictures { get; set; }
         public List<CommentQueryModel> Comments { get; set; }
+
+        public CarQueryModel()
+        {
+        }
     }
     public class CarPictureQueryModel
     {

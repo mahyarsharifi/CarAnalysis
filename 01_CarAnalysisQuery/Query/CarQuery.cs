@@ -2,7 +2,6 @@
 using CarManagment.Domain.CarPictureAgg;
 using CarManagment.Infrastracture.EFCore;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
 
 namespace _01_CarAnalysisQuery.Query
 {
@@ -97,7 +96,7 @@ namespace _01_CarAnalysisQuery.Query
         {
             return _context.Cars
             .Include(x => x.CarCategory)
-            .Where(x => x.CarCategoryId == id)
+            .Where(x => x.CarCategoryId == x.CarCategoryId)
             .Select(x => new CarQueryModel
             {
                 Id = x.Id,
@@ -155,7 +154,7 @@ namespace _01_CarAnalysisQuery.Query
                 MetaDescription = x.MetaDescription,
                 CreationDate = x.CreationDate,
                 CarCategory = x.CarCategory.Name
-            }).FirstOrDefault(x => x.Id == id);
+            }).AsNoTracking().FirstOrDefault(x => x.Id == id);
         }
     }
 }
