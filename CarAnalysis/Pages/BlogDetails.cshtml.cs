@@ -30,7 +30,7 @@ namespace CarAnalysis.Pages
             command.Type = CommentType.Blog;
             command.ParentId = id;
             var result = _commentApplication.Add(command);
-            return RedirectToPage("./Blog", new { Id = id });
+            return RedirectToPage("./BlogDetails", new { Id = id });
         }
     }
 }

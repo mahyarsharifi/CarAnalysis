@@ -52,5 +52,10 @@ namespace CarManagment.Application
         {
             return _carCategoryRepository.GetCarCategories();
         }
+
+        public CarCategoryViewModel GetCarCategory(long id)
+        {
+            return _carCategoryRepository.GetCarCategory(id);
+        }
     }
 }

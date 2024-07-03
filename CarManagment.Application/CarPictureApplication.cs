@@ -47,6 +47,11 @@ namespace CarManagment.Application
             return operation.Succedded();
         }
 
+        public List<CarPictureViewModel> GetCarPictures(int id)
+        {
+            return _carPictureRepository.GetCarPictures(id);
+        }
+
         public EditCarPicture GetDetails(long id)
         {
             return _carPictureRepository.GetDetails(id);

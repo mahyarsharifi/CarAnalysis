@@ -7,6 +7,7 @@ namespace CarManagment.Domain.CarPictureAgg
     {
         EditCarPicture GetDetails(long id);
         CarPicture Get(long id);
+        List<CarPictureViewModel> GetCarPictures(int id);
         List<CarPictureViewModel> Search(CarPictureSearchModel searchModel);
     }
 }

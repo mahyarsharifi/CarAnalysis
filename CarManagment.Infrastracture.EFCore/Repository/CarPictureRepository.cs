@@ -47,5 +47,17 @@ namespace CarManagment.Infrastracture.EFCore.Repository
 
             return query.OrderByDescending(x => x.Id).ToList();
         }
+
+        public List<CarPictureViewModel> GetCarPictures(int id)
+        {
+            return _context.CarPictures.Select(x => new CarPictureViewModel
+            {
+                Id = x.Id,
+                CarId = x.CarId,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle
+            }).Where(x => x.CarId == id).ToList();
+        }
     }
 }

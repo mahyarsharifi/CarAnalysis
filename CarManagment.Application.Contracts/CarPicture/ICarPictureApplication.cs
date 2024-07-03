@@ -9,6 +9,7 @@ namespace CarManagment.Application.Contracts.CarPicture
         OperationResult Removed(long id);
         OperationResult Restore(long id);
         EditCarPicture GetDetails(long id);
+        List<CarPictureViewModel> GetCarPictures(int id);
         List<CarPictureViewModel> Search(CarPictureSearchModel searchModel);
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kkqnXn3Pf5i9RSdW9rrrj9sdJC1K4VNBFMMwUPwbGDM=",
+  "Hash": "NDkT7FDPlxDjDgbzZ26qypFMg/FuuMBTzTSlVyZ6y7E=",
   "Source": "CarAnalysis",
   "BasePath": "_content/CarAnalysis",
   "Mode": "Default",
@@ -1698,6 +1698,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\3996433.jpg",
+      "SourceId": "CarAnalysis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\",
+      "BasePath": "_content/CarAnalysis",
+      "RelativePath": "images/3996433.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3996433.jpg"
     },
     {
       "Identity": "C:\\Users\\Mahyar\\OneDrive\\Desktop\\Projects\\CarAnalysis\\CarAnalysis\\wwwroot\\images\\about-bg.jpg",

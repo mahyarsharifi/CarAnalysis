@@ -3,9 +3,11 @@ C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastr
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagement.Infrastructure.EFCore.dll
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagement.Infrastructure.EFCore.pdb
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\0_Freamwork.dll
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagement.Application.Contracts.dll
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagment.Domain.dll
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagment.Domain.pdb
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\0_Freamwork.pdb
+C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\obj\Debug\net7.0\CommentManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\obj\Debug\net7.0\CommentManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\obj\Debug\net7.0\CommentManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
@@ -17,5 +19,3 @@ C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastr
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\obj\Debug\net7.0\CommentManagement.Infrastructure.EFCore.pdb
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\obj\Debug\net7.0\CommentManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\obj\Debug\net7.0\ref\CommentManagement.Infrastructure.EFCore.dll
-C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagement.Application.Contracts.dll
-C:\Users\Mahyar\OneDrive\Desktop\Projects\CarAnalysis\CommentManagement.Infrastructure.EFCore\bin\Debug\net7.0\CommentManagement.Application.Contracts.pdb

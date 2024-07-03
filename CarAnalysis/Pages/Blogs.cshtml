@@ -75,3 +75,69 @@
         </div>
     </div>
 </section>
+
+<style>
+    .car_groups_section .card {
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background: linear-gradient(145deg, #f3f3f3, #e0e0e0);
+        box-shadow: 5px 5px 15px #ccc, -5px -5px 15px #fff;
+    }
+
+        .car_groups_section .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 5px 5px 20px #bbb, -5px -5px 20px #fff;
+        }
+
+    .car_groups_section .card_image {
+        height: 200px;
+        overflow: hidden;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+        .car_groups_section .card_image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+    .car_groups_section .card:hover .card_image img {
+        transform: scale(1.1);
+    }
+
+    .car_groups_section .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #333;
+    }
+
+    .car_groups_section .card-text {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .car_groups_section .btn {
+        background-color: #03de1c;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .car_groups_section .btn:hover {
+            background-color: #02c416;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+</style>  

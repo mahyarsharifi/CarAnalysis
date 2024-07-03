@@ -4,6 +4,7 @@
     ViewData["Title"] = $"مقالات | {Model.Blog.Title}";
 }
 
+<!-- Improved HTML Structure -->
 <section class="layout_padding blog_section">
     <div class="container">
         <div class="heading_container">
@@ -13,8 +14,8 @@
         <div class="blog_details">
             <img src="@Model.Blog.Picture" alt="@Model.Blog.PictureAlt" class="blog_image">
             <div class="blog_meta">
-                <span class="author"><i class="fas fa-user"></i> @Model.Blog.Writer</span>
-                <span class="date"><i class="fas fa-calendar-alt"></i> @Model.Blog.PublishDate</span>
+                <span class="meta_item author"><i class="fas fa-user"></i>@Model.Blog.Writer</span>
+                <span class="meta_item date"><i class="fas fa-calendar-alt"></i> <span id="publishDate"></span></span>
             </div>
             <div class="blog_content">
                 <p>@Model.Blog.Description</p>
@@ -37,12 +38,12 @@
                     <input type="text" id="Name" name="Name" required>
                 </div>
                 <div class="form_group">
-                    <label for="Message">ایمیل :</label>
-                    <input type="email" id="Message" name="Message" required>
+                    <label for="Email">ایمیل :</label>
+                    <input type="email" id="Email" name="Email" required>
                 </div>
                 <div class="form_group">
-                    <label for="Email">پیام :</label>
-                    <textarea type="email" id="Email" name="Email" required></textarea>
+                    <label for="Message">پیام :</label>
+                    <textarea id="Message" name="Message" required></textarea>
                 </div>
                 <input type="hidden" name="ParentId" id="ParentId" value="@Model.Blog.Id" />
                 <button type="submit" class="btn btn-primary">ارسال</button>
@@ -52,12 +53,225 @@
             @foreach (var comment in Model.Comments)
             {
                 <div class="comment">
-                    <h4>کاربر : @comment.Name</h4>
-                    <p class="comment_email">ایمیل : @comment.Email</p>
-                    <p>پیام : @comment.Message</p>
+                    <div class="comment_header">
+                        <img class="comment_icon" src="https://car.last-cdn.com/placeholders/user.svg"></img>
+                        <span class="comment_name">@comment.Name</span>
+                    </div>
+                    <div class="comment_body">
+                        <p>@comment.Message</p>
+                    </div>
                     <hr>
                 </div>
             }
         </div>
     </div>
 </section>
+
+<!-- Improved CSS Styling -->
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .layout_padding {
+        padding: 60px 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .heading_container h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .heading_container hr {
+        width: 60px;
+        height: 4px;
+        background-color: #03de1c;
+        margin: 0 auto 30px auto;
+        border: none;
+    }
+
+    .blog_details {
+        text-align: center;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+
+    .blog_image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 60%;
+    }
+
+    .blog_meta {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+        .blog_meta .author,
+        .blog_meta .date {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blog_meta i {
+            color: #03de1c;
+        }
+
+        .blog_meta .meta_item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 20px;
+            border-radius: 25px; /* Oval shape */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+    .blog_content {
+        font-size: 1.2rem;
+        color: #333;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+
+    .comments_section .heading_container h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .comments_section .heading_container hr {
+        width: 50px;
+        height: 3px;
+        background-color: #03de1c;
+        margin: 0 auto 30px auto;
+        border: none;
+    }
+
+    .comment_form {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+
+        .comment_form h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .comment_form .form_group {
+            margin-bottom: 15px;
+        }
+
+        .comment_form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .comment_form input,
+        .comment_form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .comment_form button {
+            background: #03de1c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+            .comment_form button:hover {
+                background: #029a10;
+            }
+
+    .comments_list .comment {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+    .comments_list .comment_header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .comments_list .comment_icon {
+        width: 40px; /* Adjust the width */
+        height: 40px; /* Adjust the height */
+        color: #03de1c;
+        border-radius: 25px; /* Oval shape */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-left: 10px;
+    }
+
+
+    .comments_list .comment_name {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .comments_list .comment_email {
+        font-size: 0.9rem;
+        color: #777;
+    }
+
+    .comments_list .comment_body {
+        font-size: 1rem;
+        color: #333;
+    }
+
+    .comments_list .comment hr {
+        border: none;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+    }
+</style>
+
+
+
+<!-- JavaScript for Farsi Date Formatting -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const publishDate = new Date("@Model.Blog.PublishDate");
+        const farsiDate = publishDate.toLocaleDateString('fa-IR');
+        document.getElementById('publishDate').innerText = farsiDate;
+    });
+</script>

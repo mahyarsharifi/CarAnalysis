@@ -7,6 +7,7 @@ namespace CarManagment.Domain.CategoryAgg
     {
         CarCategory Get(long id);
         List<CarCategoryViewModel> GetCarCategories();
+        CarCategoryViewModel GetCarCategory(long id);
         EditCarCategory GetDetails(long id);
     }
 }

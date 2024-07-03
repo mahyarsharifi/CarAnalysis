@@ -29,6 +29,17 @@ namespace CarManagment.Infrastracture.EFCore.Repository
             }).ToList();
         }
 
+        public CarCategoryViewModel GetCarCategory(long id)
+        {
+            return _context.CarCategories.Select(x => new CarCategoryViewModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Picture = x.Picture,
+                Description = x.Description,
+            }).FirstOrDefault(x => x.Id == id);
+        }
+
         public EditCarCategory GetDetails(long id)
         {
             return _context.CarCategories.Select(x => new EditCarCategory
